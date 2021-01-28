@@ -11,5 +11,12 @@ public class AccountTest {
     @Test
     public void depositAmount() {
         Account account = new Account();
+        account.deposit(10);
+    }
+
+    @Test
+    public void withdrawAmount() {
+        Account account = new Account();
+        account.withdraw(10);
     }
 }
